@@ -8,5 +8,6 @@ alias dc='docker-compose'
 
 alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
-alias cd='command cd $@ && ls -lahF'
-alias ll='ls -lahF $@'
+# Fix this when I'm not lazy, can't remember how to pull cli args in bash
+# alias cd='command cd $@ && ls -lahF'
+# alias ll='ls -lahF $@'
